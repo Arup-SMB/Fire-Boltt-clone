@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-effact {
+        @apply transition-all duration-500 hover:bg-white hover:text-black hover:px-[17px] hover:py-[9px];
+    }
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;  /* Chrome, Safari and Opera */
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+}
+.banner {
+    position: relative;
+}
+.banner .btn-slider .owl-prev{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+    display: flex;
+    z-index: 100;        
+}
+.banner .btn-slider .owl-next{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    display: flex;
+    z-index: 100;      
+}
+
+.owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    transform: transSlate(-50%, 0);        
+}
+.owl-dot {
+    margin-top: 20px;
+    text-align: center;
+}
+.owl-dot > span {
+    display: block;
+    height: 8px;
+    width: 8px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #aaa;
+}         
+.owl-dot.active > span {
+    border: none;
+    border-radius: 10px;
+    background-color: #fa551a;
+    width: 50px;
+    height: 5px;
+    transition: .5s;        
+}

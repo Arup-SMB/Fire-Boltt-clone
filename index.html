@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire-Boltt</title>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- Font Asowme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Output Css -->
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <nav class="">
+        <div class="container mx-auto py-5 text-center">
+            <div class="grid grid-cols-8">
+                <div class="col-span-1">
+                    <img src="assets/imgs/Logo.webp" alt="">
+                </div>
+                <div class="col-span-6">
+                    <ul class="flex justify-center space-x-10">
+                        <li class="text-base font-semibold">
+                            <a href="#">Products</a>
+                        </li>
+                        <li class="text-base font-semibold">
+                            <a href="#">Deals</a>
+                            💰
+                        </li>
+                        <li>
+                            <a href="#">More</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-span-1">
+                    <ul class="flex text-base space-x-5">
+                        <li>
+                            <i class="fas fa-magnifying-glass"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-cart-shopping"></i>
+                        </li>
+                        <li>
+                            <i class="far fa-user"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Header Section -->
+
+    <!-- Banner -->
+    <div class="banner">
+        <div class="slider owl-carousel">
+            <div class="slide">
+                <img src="assets/imgs/About-section-img-2.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/imgs/About-section-img-1.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/imgs/About-section-img-3.webp" alt="">
+            </div>
+        </div>
+        <!-- Buttons -->
+        <div class="btn-slider">
+            <div class="owl-prev">
+                <button class="carousel-prev bg-slate-600 text-white text-lg font-medium px-4 py-2 rounded-full btn-effact">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </div>
+            <div class="owl-next">
+                <button class="carousel-next  bg-slate-600 text-white text-lg font-medium px-4 py-2 rounded-full btn-effact">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Quick Products -->
+    <div class="py-10 border-b border-slate-200">
+    <div class="container mx-auto">
+        <ul class="flex space-x-5 text-center justify-center text-base font-semibold">
+            <li>
+                <a href="#">
+                    <img src="assets/imgs/apollo_2_black_1_95x.avif" alt="" class="border-2 border-[#fa551a] w-24 h-24 rounded-full object-cover bg-slate-400 p-2 mb-2">
+                    Apollo 2
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/imgs/4gpro-black_1_95x_2.avif" alt="" class="border-2 border-[#fa551a] w-24 h-24 rounded-full object-cover bg-slate-400 p-2 mb-2">
+                    4g Pro
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/imgs/cobra-black_3.avif" alt="" class="border-2 border-[#fa551a] w-24 h-24 rounded-full object-cover bg-slate-400 p-2 mb-2">
+                    Cobra
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/imgs/rock-black_4.webp" alt="" class="border-2 border-[#fa551a] w-24 h-24 rounded-full object-cover bg-slate-400 p-2 mb-2">
+                    Rock
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/imgs/black_5.avif" alt="" class="border-2 border-[#fa551a] w-24 h-24 rounded-full object-cover bg-slate-400 p-2 mb-2">
+                    Avalanche
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/imgs/blizzard-ultra-gold_6.webp" alt="" class="border-2 border-[#fa551a] w-24 h-24 rounded-full object-cover bg-slate-400 p-2 mb-2">
+                    Blizzard Ultra
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/imgs/gladiator-plus-black-steel_7.avif" alt="" class="border-2 border-[#fa551a] w-24 h-24 rounded-full object-cover bg-slate-400 p-2 mb-2">
+                    Glidator Plus
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/imgs/2-1_0016_Layer-8.avif" alt="" class="border-2 border-[#fa551a] w-24 h-24 rounded-full object-cover bg-slate-400 p-2 mb-2">
+                    Visionary Ultra
+                </a>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <!-- End Quick Products -->
+
+    <!-- Imformation -->
+    <div class="py-10 mt-10 border-b border-slate-200">
+    <div class="container mx-auto">
+        <h1 class="text-4xl font-bold text-center mb-10">
+            Fire-Boltt | <span class="text-[#fa551a]">Ignite the fire in you</span>
+        </h1>
+        <div class="grid grid-cols-4 mx-10">
+            <div class="col-span-1 ml-5">
+                <div class="flex space-x-5">
+                    <img src="assets/imgs/growth.gif" alt="" class="w-20 h-20">
+                    <div class="flex flex-col justify-center">
+                        <span class="text-lg font-semibold">
+                            1300% YOY
+                        </span>
+                        <span class="text-lg font-semibold text-[#fa551a]">
+                            400% QOQ Growth
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-span-1">
+                <div class="flex space-x-5">
+                    <div class="w-24 h-24 border-[6px] border-[#fa551a] rounded-full text-center relative">
+                        <h3 class="text-xl font-bold text-[#fa551a] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                            <div class="productUnitCouter flex space-x-2">
+                                <span id="productUnit"></span>
+                                Mn+
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <span class="text-xl font-semibold">
+                            Units
+                        </span>
+                        <span class="text-base font-bold text-[#fa551a]">
+                            Sold
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-span-1">
+                <div class="flex space-x-5">
+                    <img src="assets/imgs/stopwatch.gif.gif" alt="" class="w-20 h-20">
+                    <div class="flex flex-col justify-center">
+                        <span class="text-xl font-semibold">
+                            1 Unit Sold
+                        </span>
+                        <span class="text-xl font-semibold text-[#fa551a]">
+                            Every 05 Sec
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-span-1">
+                <div class="flex space-x-5">
+                    <img src="assets/imgs/review.webp" alt="" class="w-20 h-20">
+                    <div class="flex flex-col justify-center">
+                        <span class="text-xl font-semibold">
+                            2Mn+ Product
+                        </span>
+                        <span class="text-base font-bold text-[#fa551a]">
+                            Reviews
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- End Imformation -->
+     
+    <!-- Bestsellers Products -->
+    <div class="py-10 mt-10 border-b border-slate-200">
+    <div class="container mx-auto">
+        <div class="py-5">
+            <h1 class="text-4xl font-bold text-center mb-5">
+                Explore <span class="text-[#fa551a]">Bestsellers</span>
+            </h1>
+            <span class="w-32 h-[1px] bg-black block m-auto"></span>
+        </div>
+
+        <div class="flex space-x-5 overflow-x-auto no-scrollbar">
+            <div class="h-[350px]">
+                <a href="#">
+                    <div class="w-[300px] h-[300px] border border-[#fa551a] rounded-xl">
+                        <img src="assets/imgs/Artboard_1_432_600x.webp" alt="" class="rounded-xl">
+                        <span class="text-2xl font-bold block text-center">Dream</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="h-[350px]">
+                <a href="#">
+                    <div class="w-[300px] h-[300px] border border-[#fa551a] rounded-xl">
+                        <img src="assets/imgs/1_3_cc623512-5512-4793-8fde-d7442074c778_600x.webp" alt="" class="rounded-xl">
+                        <span class="text-2xl font-bold block text-center">Retro</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="h-[350px]">
+                <a href="#">
+                    <div class="w-[300px] h-[300px] border border-[#fa551a] rounded-xl">
+                        <img src="assets/imgs/1_ef8af4e8-151b-4b0a-8e6f-dab9d028f689_600x.webp" alt="" class="rounded-xl">
+                        <span class="text-2xl font-bold block text-center">Commando</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="h-[350px]">
+                <a href="#">
+                    <div class="w-[300px] h-[300px] border border-[#fa551a] rounded-xl">
+                        <img src="assets/imgs/1_1_0644d4a2-fc50-4399-b5d9-46accac4de47_600x.webp" alt="" class="rounded-xl">
+                        <span class="text-2xl font-bold block text-center">Hulk</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="h-[350px]">
+                <a href="#">
+                    <div class="w-[300px] h-[300px] border border-[#fa551a] rounded-xl">
+                        <img src="assets/imgs/blizzard_a495d0cd-c9a4-4e09-afd7-1de241e5ae29_600x.jpg" alt="" class="rounded-xl">
+                        <span class="text-2xl font-bold block text-center">Blizzard</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="h-[350px]">
+                <a href="#">
+                    <div class="w-[300px] h-[300px] border border-[#fa551a] rounded-xl">
+                        <img src="assets/imgs/suparnova.jpg" alt="" class="rounded-xl">
+                        <span class="text-2xl font-bold block text-center">Supernova</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="h-[350px]">
+                <a href="#">
+                    <div class="w-[300px] h-[300px] border border-[#fa551a] rounded-xl">
+                        <img src="assets/imgs/solares.webp" alt="" class="rounded-xl">
+                        <span class="text-2xl font-bold block text-center">Solaris</span>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    <!-- End Bestsellers Products -->
+
+    <!-- Shop By Categories -->
+    <div class="py-10">
+        <div class="container mx-auto">
+            <div class="py-10">
+                <h1 class="text-4xl font-bold text-center mb-5">
+                    Shop By <span class="text-[#fa551a]">Categories</span>
+                </h1>
+                <span class="w-32 h-[1px] bg-black block m-auto"></span>
+            </div>
+
+            <div class="flex space-x-4 justify-start overflow-x-auto no-scrollbar">
+                <div class="h-[250px] px-5 flex items-center">
+                    <a href="#">
+                        <div class="w-[200px] h-[200px] flex flex-col items-center justify-center">
+                            <img src="assets/imgs/Cellular_calling.avif" alt="">
+                            <span class="text-2xl font-bold block text-center">Cellular calling</span>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="h-[250px] px-5 flex items-center">
+                    <a href="#">
+                        <div class="w-[200px] h-[200px] flex flex-col items-center justify-center">
+                            <img src="assets/imgs/Luex_edition.avif" alt="">
+                            <span class="text-2xl font-bold block text-center">Luxe edition</span>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="h-[250px] px-5 flex items-center">
+                    <a href="#">
+                        <div class="w-[200px] h-[200px] flex flex-col items-center justify-center">
+                            <img src="assets/imgs/bluetooth-calling_1024x1024.avif" alt="">
+                            <span class="text-2xl font-bold block text-center">Bluetooth calling</span>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="h-[250px] px-5 flex items-center">
+                    <a href="#">
+                        <div class="w-[200px] h-[200px] flex flex-col items-center justify-center">
+                            <img src="assets/imgs/amoled-display_1024x1024.avif" alt="">
+                            <span class="text-2xl font-bold block text-center">Amoled display</span>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="h-[250px] px-5 flex items-center">
+                    <a href="#">
+                        <div class="w-[200px] h-[200px] flex flex-col items-center justify-center">
+                            <img src="assets/imgs/outdoor-series_1024x1024.avif" alt="">
+                            <span class="text-2xl font-bold block text-center">Outdoor series</span>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="h-[250px] px-5 flex items-center">
+                    <a href="#">
+                        <div class="w-[200px] h-[200px] flex flex-col items-center justify-center">
+                            <img src="assets/imgs/ninja-series_1024x1024.avif" alt="">
+                            <span class="text-2xl font-bold block text-center">Ninja series</span>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="h-[250px] px-5 flex items-center">
+                    <a href="#">
+                        <div class="w-[200px] h-[200px] flex flex-col items-center justify-center">
+                            <img src="assets/imgs/audio-series_1024x1024.avif" alt="">
+                            <span class="text-2xl font-bold block text-center">Audio series</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- End Shop By Categories -->
+
+    <!-- New Launches -->
+    <div class="py-10 border-b border-slate-200">
+        <div class="container mx-auto">
+            <div class="py-5">
+                <h1 class="text-4xl font-bold text-center mb-3">
+                    New <span class="text-[#fa551a]">Launches</span>
+                </h1>
+                <span class="w-32 h-[1px] bg-black block m-auto"></span>
+            </div>
+            <h3 class="text-xl text-center font-medium mb-2">
+                Recently Launched
+            </h3>
+            <span class="w-40 h-[1px] bg-slate-400 block m-auto"></span>
+
+            <!-- Cards -->
+            <div class="grid grid-cols-4 mt-10">
+                <div class="col-span-1">
+                    <a href="#">
+                        <div class="w-[350px] h-[250px] bg-slate-200 px-5 py-5">
+                            <img src="assets/imgs/horizon-black_rl-1.webp" alt="" class="w-[200px] h-[200px] mx-auto">
+                        </div>
+                        <div class="flex justify-between pr-9 mt-1">
+                            <h2 class="text-2xl font-bold">
+                                Horizon
+                            </h2>
+                            <span class="font-bold">
+                                <i class="fas fa-star text-yellow-500"></i>
+                                5.0
+                            </span>
+                        </div>
+                    </a>
+                    <div class="mt-1 flex space-x-3">
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-black"></span>
+                        </a>
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-slate-500"></span>
+                        </a>
+                        <a href="#" class="text-base font-bold">
+                            + 2 More
+                        </a>
+                    </div>
+                    <p class="text-xs mt-3">
+                        49.5mm Display | AMOLED
+                    </p>
+                    <div class="flex justify-between mr-9">
+                        <h3 class="text-2xl font-bold">
+                            <i class="fa-solid fa-indian-rupee-sign fa-sm"></i>
+                            1,799
+                        </h3>
+                        <a href="#" class="border-b-2 border-[#fa551a] text-lg font-bold">
+                            Add to cart
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-span-1">
+                    <a href="#">
+                        <div class="w-[350px] h-[250px] bg-slate-200 px-5 py-5">
+                            <img src="assets/imgs/horizon-black_rl-2.webp" alt="" class="w-[200px] h-[200px] mx-auto">
+                        </div>
+                        <div class="flex justify-between pr-9 mt-1">
+                            <h2 class="text-2xl font-bold">
+                                Moonwatch
+                            </h2>
+                            <span class="font-bold">
+                                <i class="fas fa-star text-yellow-500"></i>
+                                5.0
+                            </span>
+                        </div>
+                    </a>
+                    <div class="mt-1 flex space-x-3">
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-black"></span>
+                        </a>
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-slate-500"></span>
+                        </a>
+                        <a href="#" class="text-base font-bold">
+                            + 2 More
+                        </a>
+                    </div>
+                    <p class="text-xs mt-3">
+                        36.3mm Display | AMOLED
+                    </p>
+                    <div class="flex justify-between mr-9">
+                        <h3 class="text-2xl font-bold">
+                            <i class="fa-solid fa-indian-rupee-sign fa-sm"></i>
+                            2,999
+                        </h3>
+                        <a href="#" class="border-b-2 border-[#fa551a] text-lg font-bold">
+                            Add to cart
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-span-1">
+                    <a href="#">
+                        <div class="w-[350px] h-[250px] bg-slate-200 px-5 py-5">
+                            <img src="assets/imgs/retro-black_rl-3.webp" alt="" class="w-[200px] h-[200px] mx-auto">
+                        </div>
+                        <div class="flex justify-between pr-9 mt-1">
+                            <h2 class="text-2xl font-bold">
+                                Retro
+                            </h2>
+                            <span class="font-bold">
+                                <i class="fas fa-star text-yellow-500"></i>
+                                4.8
+                            </span>
+                        </div>
+                    </a>
+                    <div class="mt-1 flex space-x-3">
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-black"></span>
+                        </a>
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-slate-500"></span>
+                        </a>
+                        <a href="#" class="text-base font-bold">
+                            + 2 More
+                        </a>
+                    </div>
+                    <p class="text-xs mt-3">
+                        39.1mm Display | AMOLED
+                    </p>
+                    <div class="flex justify-between mr-9">
+                        <h3 class="text-2xl font-bold">
+                            <i class="fa-solid fa-indian-rupee-sign fa-sm"></i>
+                            2,499
+                        </h3>
+                        <a href="#" class="border-b-2 border-[#fa551a] text-lg font-bold">
+                            Add to cart
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-span-1">
+                    <a href="#">
+                        <div class="w-[350px] h-[250px] bg-slate-200 px-5 py-5">
+                            <img src="assets/imgs/4gpro-black_rl-4.webp" alt="" class="w-[200px] h-[200px] mx-auto">
+                        </div>
+                        <div class="flex justify-between pr-9 mt-1">
+                            <h2 class="text-2xl font-bold">
+                                4G Pro
+                            </h2>
+                            <span class="font-bold">
+                                <i class="fas fa-star text-yellow-500"></i>
+                                4.9
+                            </span>
+                        </div>
+                    </a>
+                    <div class="mt-1 flex space-x-3">
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-black"></span>
+                        </a>
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-slate-500"></span>
+                        </a>
+                        <a href="#" class="text-base font-bold">
+                            + 2 More
+                        </a>
+                    </div>
+                    <p class="text-xs mt-3">
+                        55mm Display | VoLTE
+                    </p>
+                    <div class="flex justify-between mr-9">
+                        <h3 class="text-2xl font-bold">
+                            <i class="fa-solid fa-indian-rupee-sign fa-sm"></i>
+                            2,999
+                        </h3>
+                        <a href="#" class="border-b-2 border-[#fa551a] text-lg font-bold">
+                            Add to cart
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Card End Here -->
+
+            <!-- Button Centre -->
+            <div class="text-center mt-10">
+                <a href="#" class="bg-black px-5 py-2 text-white font-bold rounded-lg text-center">
+                    View All
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End New Launches -->
+
+    <!-- Just Tranding -->
+    <div class="py-10 border-b border-slate-200">
+        <div class="container mx-auto">
+            <div class="py-5">
+                <h1 class="text-4xl font-bold text-center mb-3">
+                    Just <span class="text-[#fa551a]">Tranding</span>
+                </h1>
+                <span class="w-32 h-[1px] bg-black block m-auto"></span>
+            </div>            
+
+            <!-- Cards -->
+            <div class="grid grid-cols-4 mt-10">
+                <div class="col-span-1">
+                    <a href="#">
+                        <div class="w-[350px] h-[250px] bg-slate-200 px-5 py-5">
+                            <img src="assets/imgs/expedition-black_1_360x.webp" alt="" class="w-[200px] h-[200px] mx-auto">
+                        </div>
+                        <div class="flex justify-between pr-9 mt-1">
+                            <h2 class="text-2xl font-bold">
+                                Expedition
+                            </h2>
+                            <span class="font-bold">
+                                <i class="fas fa-star text-yellow-500"></i>
+                                4.8
+                            </span>
+                        </div>
+                    </a>
+                    <div class="mt-1 flex space-x-3">
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-black"></span>
+                        </a>
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-slate-500"></span>
+                        </a>
+                        <a href="#" class="text-base font-bold">
+                            + 2 More
+                        </a>
+                    </div>
+                    <p class="text-xs mt-3">
+                        BT Calling | GPS
+                    </p>
+                    <div class="flex justify-between mr-9">
+                        <h3 class="text-2xl font-bold">
+                            <i class="fa-solid fa-indian-rupee-sign fa-sm"></i>
+                            1,899
+                        </h3>
+                        <a href="#" class="border-b-2 border-[#fa551a] text-lg font-bold">
+                            Add to cart
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-span-1">
+                    <a href="#">
+                        <div class="w-[350px] h-[250px] bg-slate-200 px-5 py-5">
+                            <img src="assets/imgs/epic-plus-green_1_360x.webp" alt="" class="w-[200px] h-[200px] mx-auto">
+                        </div>
+                        <div class="flex justify-between pr-9 mt-1">
+                            <h2 class="text-2xl font-bold">
+                                Epic Plus
+                            </h2>
+                            <span class="font-bold">
+                                <i class="fas fa-star text-yellow-500"></i>
+                                4.8
+                            </span>
+                        </div>
+                    </a>
+                    <div class="mt-1 flex space-x-3">
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-black"></span>
+                        </a>
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-slate-500"></span>
+                        </a>
+                        <a href="#" class="text-base font-bold">
+                            + 6 More
+                        </a>
+                    </div>
+                    <p class="text-xs mt-3">
+                        46.5mm Display | SpO2
+                    </p>
+                    <div class="flex justify-between mr-9">
+                        <h3 class="text-2xl font-bold">
+                            <i class="fa-solid fa-indian-rupee-sign fa-sm"></i>
+                            899
+                        </h3>
+                        <a href="#" class="border-b-2 border-[#fa551a] text-lg font-bold">
+                            Add to cart
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-span-1">
+                    <a href="#">
+                        <div class="w-[350px] h-[250px] bg-slate-200 px-5 py-5">
+                            <img src="assets/imgs/Ninja-3-PlusArtboard-2_360x.webp" alt="" class="w-[200px] h-[200px] mx-auto">
+                        </div>
+                        <div class="flex justify-between pr-9 mt-1">
+                            <h2 class="text-2xl font-bold">
+                                Ninja 3 Plus
+                            </h2>
+                            <span class="font-bold">
+                                <i class="fas fa-star text-yellow-500"></i>
+                                4.7
+                            </span>
+                        </div>
+                    </a>
+                    <div class="mt-1 flex space-x-3">
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-black"></span>
+                        </a>
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-slate-500"></span>
+                        </a>
+                        <a href="#" class="text-base font-bold">
+                            + 2 More
+                        </a>
+                    </div>
+                    <p class="text-xs mt-3">
+                        46.5mm Display
+                    </p>
+                    <div class="flex justify-between mr-9">
+                        <h3 class="text-2xl font-bold">
+                            <i class="fa-solid fa-indian-rupee-sign fa-sm"></i>
+                            999
+                        </h3>
+                        <a href="#" class="border-b-2 border-[#fa551a] text-lg font-bold">
+                            Add to cart
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-span-1">
+                    <a href="#">
+                        <div class="w-[350px] h-[250px] bg-slate-200 px-5 py-5">
+                            <img src="assets/imgs/lumos-pro_5_ff4ce8d4-ca5a-4b13-8c0e-032130037d8a_360x.webp" alt="" class="w-[200px] h-[200px] mx-auto">
+                        </div>
+                        <div class="flex justify-between pr-9 mt-1">
+                            <h2 class="text-2xl font-bold">
+                                Lumos Pro
+                            </h2>
+                            <span class="font-bold">
+                                <i class="fas fa-star text-yellow-500"></i>
+                                4.7
+                            </span>
+                        </div>
+                    </a>
+                    <div class="mt-1 flex space-x-3">
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-black"></span>
+                        </a>
+                        <a href="#">
+                            <span class="w-6 h-6 rounded-full block bg-slate-500"></span>
+                        </a>
+                        <a href="#" class="text-base font-bold">
+                            + 3 More
+                        </a>
+                    </div>
+                    <p class="text-xs mt-3">
+                        48.5mm Display | BT Calling
+                    </p>
+                    <div class="flex justify-between mr-9">
+                        <h3 class="text-2xl font-bold">
+                            <i class="fa-solid fa-indian-rupee-sign fa-sm"></i>
+                            1,499
+                        </h3>
+                        <a href="#" class="border-b-2 border-[#fa551a] text-lg font-bold">
+                            Add to cart
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Card End Here -->
+
+            <!-- Button Centre -->
+            <div class="text-center mt-10">
+                <a href="#" class="bg-black px-5 py-2 text-white font-bold rounded-lg text-center">
+                    View All
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End Just Tranding -->
+
+    <!-- Amazing Deals -->
+    <div class="py-10 bg-slate-200">
+    <!-- <span class="w-[1px] h-24 block bg-slate-500 mx-auto"></span> -->
+    <div class="container mx-auto">
+        <div class="flex">
+            <div class="flex flex-col uppercase">
+                <span class="text-2xl font-normal text-[#fa551a]">
+                    Amazing Deals on
+                </span>
+                <span class="text-2xl font-semibold">
+                    Best Selling Products
+                </span>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    <!-- Amazing Deals End Here -->
+
+    <!-- All JS Links -->
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/main.js"></script>
+    <!-- Js Link Ends Here -->
+</body>
+</html>
