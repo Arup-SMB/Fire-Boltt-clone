@@ -83,3 +83,13 @@ function showTime() {
 }
 
 showTime();
+
+// Tabs 
+
+$("#tabs-nav a").click( function(e) {
+	e.preventDefault();
+	$(".tab-content > div").hide();
+	$("#tabs-nav a").css("color", "#222");
+	$(this).css("color", "red");
+	$( $(this).data("tab") ).show();
+})
